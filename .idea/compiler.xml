@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ribbon" />
         <module name="hystrix" />
-        <module name="eurekaServer" />
+        <module name="nativeConfigServer" />
         <module name="provider" />
+        <module name="ribbon" />
+        <module name="nativeConfigClient" />
+        <module name="eurekaServer" />
         <module name="feign" />
         <module name="gateway" />
       </profile>
@@ -22,6 +24,8 @@
       <module name="feign" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="hystrix" options="-parameters" />
+      <module name="nativeConfigClient" options="-parameters" />
+      <module name="nativeConfigServer" options="-parameters" />
       <module name="provider" options="-parameters" />
       <module name="ribbon" options="-parameters" />
     </option>

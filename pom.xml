@@ -15,6 +15,8 @@
         <module>ribbon</module>
         <module>feign</module>
         <module>hystrix</module>
+        <module>nativeConfigServer</module>
+        <module>nativeConfigClient</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
