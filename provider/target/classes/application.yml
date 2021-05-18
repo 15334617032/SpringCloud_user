@@ -3,9 +3,13 @@ server:
 spring:
   application:
     name: provider
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka/
-  instance:
-    prefer-ip-address: true
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 121.196.97.140:8848
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka/
+#  instance:
+#    prefer-ip-address: true
