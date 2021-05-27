@@ -18,6 +18,7 @@
         <module>hystrix</module>
         <module>nativeConfigServer</module>
         <module>nativeConfigClient</module>
+        <module>uaa</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -123,6 +124,11 @@
                 <groupId>org.apache.shiro</groupId>
                 <artifactId>shiro-cas</artifactId>
                 <version>${shiro.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <optional>true</optional>
             </dependency>
             <!-- mybatis-plus -->
             <dependency>
